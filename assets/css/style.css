@@ -1,0 +1,212 @@
+* {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body{
+	background: url("../images/1.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+.start-page-info{
+    background: #ff000063;
+    padding: 12px;
+    color: white;
+    font-size: 22px;
+    text-align: left;
+    font-family: sans-serif;
+    margin: 3px;
+	max-width: 300px;
+}
+
+
+p{
+	padding: 12px;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.btn-style{
+	text-align: center;
+    margin: 35px;
+}
+
+.btn-style a{
+	background: red;
+    padding: 12px;
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+
+.btn-style a:hover{
+	background: rgb(189, 6, 6);
+}
+
+.desk{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.text{
+	background: white;
+    padding: 14px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: sans-serif;
+    border-radius: 2%;
+    border: 1px solid #ff642c81;
+}
+
+#point{
+	width: 200px;
+	height: 200px;
+	background-color: rgb(254 199 40);
+	margin: 12px;
+	border-radius: 50%;
+	cursor: grab;
+	border: 5px	 dotted rgb(143, 143, 143);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(189 6 6);
+	font-weight: 900;
+	font-family: sans-serif;
+	text-align: center;
+	box-shadow: rgb(0 0 0 / 40%) 0px 2px 4px, rgb(0 0 0 / 30%) 0px 7px 13px -3px, 
+	rgb(0 0 0 / 20%) 0px -3px 0px, rgb(0 0 0 / 35%) 0px -50px 36px -68px, 
+	rgb(0 0 0 / 40%) 0px 2px 4px, rgb(0 0 0 / 30%) 0px 7px 13px 0px, 
+	rgb(0 0 0 / 20%) 0px -3px 0px, #ffdfd2 0px 0px 0px 2px inset, 
+	rgb(252 102 40) 40px -40px inset;
+}
+
+#point:hover{
+	background-color: rgb(228, 159, 120);
+	color: white;
+}
+
+.mystyle:hover{
+	background-color: rgb(16, 49, 80);
+}
+
+.start_text{
+	text-align: center;
+}
+
+
+
+.menu_btn{
+	background-color: #6e74e1;
+    width: auto;
+    height: auto;
+    padding: 6px;
+    box-shadow: none;
+    border-radius: 12px;
+    font-family: sans-serif;
+    margin-bottom: 1px;
+    color: white;
+}
+
+.menu_btn:hover{
+    background: rgb(72, 14, 129);
+	color: white;
+
+}
+
+h1{
+	line-height: 30px;
+}
+
+#levelTwoBtn{
+	display: none;
+}
+
+#levelThreeBtn{
+	display: none;
+}
+
+#GameOverBtn{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 20px;
+	letter-spacing: 4px;
+	position: relative;
+	background-color: #16a085;
+	border: none;
+	color: #fff;
+	padding: 20px;
+	width: 200px;
+	text-align: center;
+	transition-duration: 0.4s;
+	overflow: hidden;
+	box-shadow: 0 5px 15px #193047;
+	border-radius: 4px;
+  }
+
+  button:after {
+	content: "";
+	background: #e75a36;
+	display: block;
+	position: absolute;
+	padding-top: 310%;
+	padding-left: 350%;
+	margin-left: -30px !important;
+	margin-top: -110%;
+	opacity: 0;
+	transition: all 1s;
+	color:white;
+	border-radius: 50%;
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  
+  button:active:after {
+	padding: 0;
+	margin: 0;
+	opacity: 1;
+	transition: 0s
+  }
+  
+  button:focus { outline:0; }
+  
+  .btn_pause {
+    background-color: #fc6628;
+    width: auto;
+    height: auto;
+    padding: 6px;
+    box-shadow: none;
+    border-radius: 12px;
+    font-family: sans-serif;
+    margin-bottom: 1px;
+}
+
+.btn_pause:hover {
+    background-color: #db5015;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="my project">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Makho kukhianidze">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Collect Coins</title>
+  <link rel="icon" href="../icons/m.png  " type="image/x-icon">
+</head>
+
+<body>
+  <audio src=""></audio>
+  <audio src="../music_backgound/music.mp3"></audio>
+
+
+  <div class="desk">
+    <div class="text">
+      <a class="menu_btn" href="../../index.html">Menu</a>
+      <button class="btn_pause" onclick="gamePaused()">Pause</button>
+      <button class="btn_pause" onclick="restart()">Restart</button>
+      <h1>Level 1</h1>
+      <h1 id="timer">Timer: 0</h1>
+      <h1 id="coins">Coins: 0 / 500 cents</h1>
+      <a href="level_two.html" id="levelTwoBtn">Congratulation! Level 2!</a>
+      <a href="../../index.html" id="GameOverBtn">Game over! Try again!</a>
+    </div>
+    <button id="point">GO!</button>
+  </div>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="../js/level_one.js"></script>
+</body>
+
+</html>
